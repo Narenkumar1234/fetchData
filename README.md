@@ -46,7 +46,7 @@ npm run build
 ```
 Serve the production build using http-server 
 ```bash
-npm install -g http-server
+sudo npm install -g http-server
 cd dist
 http-server
 ```
