@@ -8,12 +8,6 @@ Before you begin, ensure you have met the following requirements:
 
 - **Node.js**: This project requires Node.js 18.16.1 to be installed. Make sure you have Node.js installed on your system.
 
-- **React**: This project is built with React. You should have React and React DOM installed as dependencies. The recommended versions are:
-
-  ```json
-  "react": "^18.2.0",
-  "react-dom": "^18.2.0"
-
 
 ## Table of Contents
 
