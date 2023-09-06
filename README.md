@@ -1,4 +1,4 @@
-### Mock Test App
+### Fetch Data App
 
 A simple web application for fetching API data.
 
