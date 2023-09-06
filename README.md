@@ -1,6 +1,6 @@
 ### Mock Test App
 
-A simple web application to fetch the api built with React and Vite.
+A simple web application for fetching API data.
 
 ## Prerequisites
 
