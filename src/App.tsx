@@ -6,14 +6,14 @@ function App() {
     "https://dummyjson.com/products/category/smartphones"
   );
   const [res, setRes] = useState<any>({});
-  const [loading,setLoading] = useState<boolean>(false);
+  // const [loading,setLoading] = useState<boolean>(false);
 
   const fetchData = () => {
-    setLoading(true);
+    // setLoading(true);
     axios.get(baseURL).then((response) => {
       setRes(response.data);
     });
-    setLoading(false);
+    // setLoading(false);
   };
 
   return (
