@@ -30,7 +30,7 @@ function App() {
             <button
               onClick={fetchData}
             >
-              Fetch Dataadfs
+              Fetch Data
             </button>
           </div>
           <div>

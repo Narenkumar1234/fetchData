@@ -1,4 +1,4 @@
-# Mock Test App
+### Mock Test App
 
 A simple web application to fetch the api built with React and Vite.
 
@@ -14,26 +14,42 @@ Before you begin, ensure you have met the following requirements:
   "react": "^18.2.0",
   "react-dom": "^18.2.0"
 
-  ```shell
-  # Check your Node.js version
-  node -v
-
 
 ## Table of Contents
 
 - [Installation and Setup](#installation-and-setup)
   - [Development Environment](#development-environment)
   - [Production Environment](#production-environment)
-- [Development Workflow](#development-workflow)
-- [Production Build](#production-build)
-- [Contributing](#contributing)
+
 
 
 ## Installation and Setup
 
+
 ### Clone the Repository
 
 ```bash
-git clone <repository_url>
+git clone https://github.com/Narenkumar1234/fetchData.git
 cd mock-test-app
+```
+## Development Environment
+
+```bash
+npm i --legacy-peer-deps
+npm run dev
+```
+
+## Production Environemnt
+```bash
+npm i --legacy-peer-deps
+npm run build
+```
+Serve the production build using http-server 
+```bash
+npm install -g http-server
+cd dist
+http-server
+```
+Your production-ready application should now be accessible at a local address provided by http-server, typically 
+
 
